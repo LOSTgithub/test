@@ -27,7 +27,7 @@ body {
 }
 
 .login {
-  display: none;
+  display: block;
 }
 
 .form {
@@ -60,5 +60,5 @@ margin: 0px 30px;
 }
 
 .register {
-  display: block;
+  display: none;
 }
