@@ -1,0 +1,34 @@
+.text_ge {
+  font-size: 13px
+}
+.layui-icon::before {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.layui-icon {
+  font-size: 13px; 
+}
+
+.avater {
+  text-align: center;
+  line-height: 60px;
+}
+
+.text-heard {
+  background-color: #419488;
+  width: 35px;
+  line-height: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.layui-nav-img, .text-heard {
+  display: none;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}

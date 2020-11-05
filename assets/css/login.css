@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  overflow: hidden;
+  overflow: hidden; /* 加它的目的，不出现滚动条 */
 }
 
 body {
@@ -26,39 +26,29 @@ body {
   background: url('/assets/images/login_title.png') no-repeat center center;
 }
 
-.login {
-  display: block;
-}
-
-.form {
-margin: 0px 30px;
-}
-
-.form .d_inp {
-  position: relative;
-  margin-bottom: 15px;
-}
-
-.form .layui-icon {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-.form .layui-input {
-  text-indent: 25px;
-}
-
-.form .layui-btn {
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.form .register {
-  text-align: right;
-  display: block;
-}
-
 .register {
   display: none;
+}
+
+
+.layui-form {
+  margin: 0 25px;
+}
+
+.toregister {
+  float: right;
+}
+
+.layui-form-item {
+  position: relative;
+}
+
+.layui-icon {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+
+.layui-input {
+  padding-left: 25px;
 }
